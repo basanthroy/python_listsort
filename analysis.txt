@@ -1,0 +1,13 @@
+I chose a "Selection Sort" algorithm since it was the easiest to implement. The running time complexity
+is always O(N^2). However, no auxilliary storage is required for the sorting.
+If there are large number of duplicates, the complexity is still O(N^2) using my approach. However, if 
+it is knowb beforehand that there are a large number of duplicates, then a more appropriate algorithm
+can be used.
+
+For larger number of input words, O(N^2) will be an unacceptable time complexity. In that case, it is better
+to switch over to faster algorithms like Merge Sort / Quick Sort or Heap Sort or even radix sort
+some of which which have O(log N) complexity.
+
+Also, I have only discussed time complexity. In real world situations, memory complexity or data properties
+(number of duplicates, type of data i.e. whether String or Integer etc) are also important.
+
